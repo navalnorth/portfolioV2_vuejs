@@ -91,7 +91,16 @@ const projects = ref([
         link: "https://nahladelices.com/",
         grandTitle: "CMS e-commerce"
     },
-    
+    {
+        image: ecomFlutter,
+        title: "Flutter e-commerce",
+        tags: [
+            { name: "Flutter", color: "border-blue-400" },
+            { name: "Firebase", color: "border-red-700" },
+        ],
+        link: "https://navalnorth.com/quiz/",
+        grandTitle: "Appication Flutter E-commerce"
+    },
     {
         image: pauline,
         title: "Pauline Bourdarias | Formations & Bilan de Compétences",
@@ -105,16 +114,6 @@ const projects = ref([
         link: "https://pauline-bourdarias.netlify.app/",
         grandTitle: "Plateforme professionnelle CRUD"
 
-    },
-    {
-        image: ecomFlutter,
-        title: "Flutter e-commerce",
-        tags: [
-            { name: "Flutter", color: "border-blue-400" },
-            { name: "Firebase", color: "border-red-700" },
-        ],
-        link: "https://navalnorth.com/quiz/",
-        grandTitle: "Appication Flutter E-commerce"
     },
     {
         image: quiz,

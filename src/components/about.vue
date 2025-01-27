@@ -29,16 +29,18 @@
             </div>
 
             <div class="w-4/5 lg:w-3/5 space-y-6 flex flex-col text-center lg:text-left">
-                <h3 class="plus relative inline-block text-4xl font-medium before:h-1 before:absolute before:bottom-0 before:w-full before:bg-blue-900">
-                    A propos de moi
-                </h3>
+                <div>
+                    <h3 class="plus relative inline-block text-4xl font-medium">
+                        A propos de moi
+                    </h3>
+                </div>
 
                 <p>
                     A mes 26 ans, je suis développeur web & mobile full-stack et auparavant chimiste (pas pour faire de la meth).
-                    Depuis jeune je suis dans le monde de l'informatique et surtout du code mais je me dévie pour faire des experiences chimiques 
+                    Depuis jeune, je suis dans le monde de l'informatique et surtout du code mais je me dévie pour faire des experiences chimiques 
                     pour finalement me retrouver à faire des espériences informatiques (des molécules je passe au binaire).
                     Fluutter, Firebase, MySQL, VueJs, Nodejs... nombreux sont les langages que je maîtrise mais le plus important est
-                    de ne pas s'y habtuer et stagner mais d'apprendre davantage.<br><br>
+                    de ne pas s'y habituer et stagner mais d'apprendre davantage.<br><br>
                     À travers ce portfolio, je souhaite non seulement partager mon expertise, mais aussi témoigner de mon engagement à 
                     créer des solutions techniques adaptées aux besoins des utilisateurs. Si vous êtes à la recherche d'un développeur 
                     polyvalent et créatif, n'hésitez pas à me contacter pour discuter de vos projets.
@@ -74,6 +76,8 @@ import { CaEarthAmericasFilled, FlFilledSportSoccer, McMovieLine } from '@kalima
 
 .plus {
     transition: color 0.2s;
+    display: inline-block;
+    position: relative;
 }
 .plus:hover {
     transition-delay: 0.2s;

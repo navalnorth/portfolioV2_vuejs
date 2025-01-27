@@ -14,26 +14,26 @@
 
             <div class="flex justify-center items-center gap-4">
                 <div>
-                    <a href="mailto:moha_naval@live.com">
-                        <img src="../assets/images/social/mail.png" class="w-16 h-16 my-16 cursor-pointer">
+                    <a href="mailto:moha_naval@live.com" target="_blank">
+                        <img src="../assets/images/social/mail.png"  class="w-16 h-16 my-16 cursor-pointer">
                     </a>
                 </div>
 
                 <div>
-                    <a href="tel:+33753474050">
-                        <img src="../assets/images/social/tel.png" class="w-16 h-16 my-16 cursor-pointer">
+                    <a href="tel:+33753474050" target="_blank">
+                        <img src="../assets/images/social/tel.png"  class="w-16 h-16 my-16 cursor-pointer">
                     </a>
                 </div>
 
                 <div>
-                    <a href="https://www.linkedin.com/in/mohamed-navalnorth-10061626b/">
-                        <img src="../assets/images/social/lk.png" class="w-16 h-16 my-16 cursor-pointer">
+                    <a href="https://www.linkedin.com/in/mohamed-navalnorth-10061626b/" target="_blank">
+                        <img src="../assets/images/social/lk.png"  class="w-16 h-16 my-16 cursor-pointer">
                     </a>
                 </div>
 
                 <div>
-                    <a href="https://github.com/navalnorth">
-                        <img src="../assets/images/social/github.png" class="w-16 h-16 my-16 cursor-pointer">
+                    <a href="https://github.com/navalnorth" target="_blank">
+                        <img src="../assets/images/social/github.png"  class="w-16 h-16 my-16 cursor-pointer">
                     </a>
                 </div>
             </div>
