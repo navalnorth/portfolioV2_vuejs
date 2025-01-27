@@ -1,12 +1,9 @@
 <template>
-    <div class="h-screen flex flex-col">
-        <Navbar />
-        <Ban />
-    </div>
-    
+    <Navbar />
+    <Ban />
     <About />
     <Projecs />
-    <Skills/>
+    <Skills />
     <Contact />
 </template>
 

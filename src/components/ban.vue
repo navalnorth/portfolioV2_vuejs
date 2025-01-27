@@ -1,7 +1,7 @@
 <template>
-    <div class="relative h-screen" id="ban">
-        <div class="relative h-full">
-            <img src="../assets/images/ban.jpg" class="w-full h-full object-center object-cover">
+    <div class="relative" id="ban">
+        <div class="relative">
+            <img src="../assets/images/ban.jpg" class="w-full h-190 object-center object-cover">
             <div class="absolute inset-0 bg-blue-900 opacity-90"></div>
         </div>
 

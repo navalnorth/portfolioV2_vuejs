@@ -81,6 +81,16 @@ const updateCurrentIndex = (swiper) => {
 
 const projects = ref([
     {
+        image: ecomFlutter,
+        title: "Flutter e-commerce",
+        tags: [
+            { name: "Flutter", color: "border-blue-400" },
+            { name: "Firebase", color: "border-red-700" },
+        ],
+        link: "https://github.com/navalnorth/ecomApp_flutter",
+        grandTitle: "Appication Flutter E-commerce"
+    },
+    {
         image: nahlaImage,
         title: "Nahla Délices | Boutique en ligne",
         tags: [
@@ -90,16 +100,6 @@ const projects = ref([
         ],
         link: "https://nahladelices.com/",
         grandTitle: "CMS e-commerce"
-    },
-    {
-        image: ecomFlutter,
-        title: "Flutter e-commerce",
-        tags: [
-            { name: "Flutter", color: "border-blue-400" },
-            { name: "Firebase", color: "border-red-700" },
-        ],
-        link: "https://navalnorth.com/quiz/",
-        grandTitle: "Appication Flutter E-commerce"
     },
     {
         image: pauline,
