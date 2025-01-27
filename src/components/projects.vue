@@ -17,18 +17,18 @@
                     <div class="relative w-full h-50" @mouseover="hover = index" @mouseleave="hover = null">
                         <img :src="project.image" class="w-full h-full object-cover rounded-lg shadow-lg">
 
-                        <div v-if="hover === index" class="absolute top-0 left-0 h-full w-full flex flex-col justify-center items-center bg-black bg-opacity-30 rounded-lg">
-                            <h2 class="text-lg text-white my-2 text-center">
+                        <div v-if="hover === index" class="px-2 absolute top-0 left-0 h-full w-full flex flex-col justify-center items-center bg-black bg-opacity-30 rounded-lg">
+                            <h2 class="text-xl text-white my-2 text-center">
                                 {{ project.title }}
                             </h2>
 
                             <div class="flex text-white gap-1 my-2">
-                                <p v-for="(tag, idx) in project.tags" :key="idx" class="text-xs border-2 rounded-lg px-2 xl:py-1" :class="tag.color">
+                                <p v-for="(tag, idx) in project.tags" :key="idx" class="text-sm border-2 rounded-lg px-2 xl:py-1" :class="tag.color">
                                     {{ tag.name }}
                                 </p>
                             </div>
 
-                            <button class="my-4 hover:bg-blue-800 hover:rounded-lg">
+                            <button class="mt-6 hover:bg-blue-800 hover:rounded-lg">
                                 <a :href="project.link" target="_blank" class="text-sm px-2 py-1 text-white border-2 border-white hover:border-none rounded-lg">
                                     Visiter
                                 </a>
@@ -65,8 +65,12 @@
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/swiper-bundle.css";
 import { ref } from "vue";
-import nahlaImage from '@/assets/images/nahladelices.png';
-import quiz from '@/assets/images/quiz.png';
+import nahlaImage from '@/assets/images/projets/nahladelices.png';
+import quiz from '@/assets/images/projets/quiz.png';
+import pauline from '@/assets/images/projets/pauline.png';
+import pexingbar from '@/assets/images/projets/pexingbar.png';
+import i18n from '@/assets/images/projets/i18n.png';
+import ecomFlutter from '@/assets/images/projets/ecomFlutter.png';
 
 const hover = ref(null);
 const currentIndex = ref(0);
@@ -78,14 +82,39 @@ const updateCurrentIndex = (swiper) => {
 const projects = ref([
     {
         image: nahlaImage,
-        title: "Nahla Délices | CMS E-commerce",
+        title: "Nahla Délices | Boutique en ligne",
         tags: [
-            { name: "Wordpress", color: "border-green-600" },
+            { name: "Wordpress", color: "border-green-500" },
             { name: "Woocommerce", color: "border-blue-400" },
             { name: "SEO & SEA", color: "border-blue-600" },
         ],
         link: "https://nahladelices.com/",
         grandTitle: "CMS e-commerce"
+    },
+    
+    {
+        image: pauline,
+        title: "Pauline Bourdarias | Formations & Bilan de Compétences",
+        tags: [
+            { name: "Vue.s", color: "border-green-500" },
+            { name: "Node.js", color: "border-red-700" },
+            { name: "MySQL", color: "border-yellow-500" },
+            { name: "Railway", color: "border-white" },
+            { name: "Netlify", color: "border-blue-300" },
+        ],
+        link: "https://pauline-bourdarias.netlify.app/",
+        grandTitle: "Plateforme professionnelle CRUD"
+
+    },
+    {
+        image: ecomFlutter,
+        title: "Flutter e-commerce",
+        tags: [
+            { name: "Flutter", color: "border-blue-400" },
+            { name: "Firebase", color: "border-red-700" },
+        ],
+        link: "https://navalnorth.com/quiz/",
+        grandTitle: "Appication Flutter E-commerce"
     },
     {
         image: quiz,
@@ -94,30 +123,32 @@ const projects = ref([
             { name: "Vue.js", color: "border-green-600" },
             { name: "Node.js", color: "border-red-700" },
             { name: "MySQL", color: "border-yellow-500" },
+            { name: "Hostinger", color: "border-purple-500" },
         ],
         link: "https://navalnorth.com/quiz/",
         grandTitle: "Appication Quiz CRUD"
     },
     {
-        image: nahlaImage,
-        title: "Project 3",
+        image: pexingbar,
+        title: "Pexing Bar | Bar à jeux",
         tags: [
-            { name: "React", color: "border-red-600" },
-            { name: "TypeScript", color: "border-blue-400" },
+            { name: "Vue.js", color: "border-green-500" },
+            { name: "node.js", color: "border-red-400" },
         ],
-        link: "https://example.com",
-        grandTitle: "Appication Quiz CRUD"
+        link: "https://pexingbar.netlify.app/",
+        grandTitle: "Site vitrine & Mobile only"
 
     },
     {
-        image: nahlaImage,
-        title: "Project 4",
+        image: i18n,
+        title: "Site de recettes espagnoles",
         tags: [
-            { name: "Laravel", color: "border-purple-600" },
-            { name: "PHP", color: "border-yellow-400" },
+            { name: "Vue.js", color: "border-green-500" },
+            { name: "node.js", color: "border-red-400" },
+            { name: "I18n", color: "border-blue-300" },
         ],
-        link: "https://example.com",
-        grandTitle: "Appication Quiz CRUD"
+        link: "https://github.com/navalnorth/ecomApp_flutter",
+        grandTitle: "Site vitrine & traduction I18n"
 
     },
 ]);

@@ -5,9 +5,9 @@
             <div class="absolute inset-0 bg-blue-900 opacity-90"></div>
         </div>
 
-        <div class="absolute inset-0 flex flex-col justify-center items-center text-white ">
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
             <div class="space-y-1">
-                <h1 class="typing text-xl lg:text-4xl font-bold text-center">Développeur web et mobile full-stack</h1>
+                <h1 class="typing text-lg lg:text-4xl font-bold text-center">Développeur web et mobile full-stack</h1>
                 <h2 class="text-md lg:text-2xl text-center">Mohamed A.T. "Navalnorth"</h2>
             </div>
 

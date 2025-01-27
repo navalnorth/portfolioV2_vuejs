@@ -68,7 +68,7 @@
                         </div>
                     </li>
 
-                    <li class="group cursor-pointer hover:text-blue-900">
+                    <li @click.prevent="scrollTo('contact')" class="group cursor-pointer hover:text-blue-900">
                         <div class="flex flex-col justify-center items-center">
                             <AnOutlinedMail class="text-2xl"/>
                             <div class="relative">
