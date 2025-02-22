@@ -28,7 +28,7 @@
                 </div>
             </div>
 
-            <div class="w-4/5 lg:w-3/5 space-y-6 flex flex-col text-center lg:text-left">
+            <div class="w-4/5 lg:w-3/5 space-y-6 flex flex-col justify-center text-center lg:text-left self-center">
                 <div>
                     <h3 class="plus relative inline-block text-4xl font-medium">
                         A propos de moi
@@ -36,14 +36,12 @@
                 </div>
 
                 <p>
-                    A mes 26 ans, je suis développeur web & mobile full-stack et auparavant chimiste (pas pour faire de la meth).
-                    Depuis jeune, je suis dans le monde de l'informatique et surtout du code mais je me dévie pour faire des experiences chimiques 
-                    pour finalement me retrouver à faire des espériences informatiques (des molécules je passe au binaire).
-                    Fluutter, Firebase, MySQL, VueJs, Nodejs... nombreux sont les langages que je maîtrise mais le plus important est
-                    de ne pas s'y habituer et stagner mais d'apprendre davantage.<br><br>
-                    À travers ce portfolio, je souhaite non seulement partager mon expertise, mais aussi témoigner de mon engagement à 
-                    créer des solutions techniques adaptées aux besoins des utilisateurs. Si vous êtes à la recherche d'un développeur 
-                    polyvalent et créatif, n'hésitez pas à me contacter pour discuter de vos projets.
+                    Développeur web & mobile full-stack et auparavant chimiste,
+                    je suis d'abord attiré par les experiences chimiques pour me tourner finalement vers les expériences informatiques.
+                    Fluutter, Firebase, VueJs, Nodejs... nombreux sont les langages que je maîtrise mais le plus important est
+                    de ne pas stagner, d'apprendre continuellement et d'évoluer.<br><br>
+                    Ce portfolio reflète mon expertise et mon engagement à concevoir des solutions adaptées aux utilisateurs.
+                    À la recherche d'un développeur polyvalent et créatif ? Contactez-moi pour en discuter !
                 </p>
             </div>
         </div>

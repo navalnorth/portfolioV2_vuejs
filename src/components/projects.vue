@@ -71,6 +71,9 @@ import pauline from '@/assets/images/projets/pauline.png';
 import pexingbar from '@/assets/images/projets/pexingbar.png';
 import i18n from '@/assets/images/projets/i18n.png';
 import ecomFlutter from '@/assets/images/projets/ecomFlutter.png';
+import amorre from '@/assets/images/projets/amorre.png';
+import morpion from '@/assets/images/projets/morpion.png';
+import planify from '@/assets/images/projets/planify.png';
 
 const hover = ref(null);
 const currentIndex = ref(0);
@@ -116,6 +119,15 @@ const projects = ref([
 
     },
     {
+        image: morpion,
+        title: "Le jeu du morpion en Flutter",
+        tags: [
+            { name: "Flutter", color: "border-blue-400" },
+        ],
+        link: "https://apkpure.com/p/com.navalnorth.morpion",
+        grandTitle: "Le jeu du morpion"
+    },
+    {
         image: quiz,
         title: "QuizApp",
         tags: [
@@ -146,8 +158,32 @@ const projects = ref([
             { name: "node.js", color: "border-red-400" },
             { name: "I18n", color: "border-blue-300" },
         ],
-        link: "https://github.com/navalnorth/ecomApp_flutter",
+        link: "https://recettesi18n.netlify.app/",
         grandTitle: "Site vitrine & traduction I18n"
+
+    },
+    {
+        image: planify,
+        title: "Planify, planifie tes voyages !",
+        tags: [
+            { name: "Vue.js", color: "border-green-500" },
+            { name: "node.js", color: "border-red-400" },
+            { name: "MySQL", color: "border-yellow-500" },
+        ],
+        link: "https://navalnorth.com/planify/",
+        grandTitle: "Site web desktop-first pour planifier tes voyages"
+
+    },
+    {
+        image: amorre,
+        title: "Restaurant de Luxe",
+        tags: [
+            { name: "HTML", color: "border-green-500" },
+            { name: "CSS", color: "border-purple-400" },
+            { name: "JavaScript", color: "border-orange-300" },
+        ],
+        link: "https://amorreditalia.netlify.app/",
+        grandTitle: "Site vitrine restaurant"
 
     },
 ]);
