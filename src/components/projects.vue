@@ -74,6 +74,8 @@ import ecomFlutter from '@/assets/images/projets/ecomFlutter.png';
 import amorre from '@/assets/images/projets/amorre.png';
 import morpion from '@/assets/images/projets/morpion.png';
 import planify from '@/assets/images/projets/planify.png';
+import terapiya from '@/assets/images/projets/terapiya.png';
+import cafe from '@/assets/images/projets/cafe.png';
 
 const hover = ref(null);
 const currentIndex = ref(0);
@@ -84,14 +86,39 @@ const updateCurrentIndex = (swiper) => {
 
 const projects = ref([
     {
-        image: ecomFlutter,
-        title: "Flutter e-commerce",
+        image: terapiya,
+        title: "Terapiya Center | Bien-être",
         tags: [
             { name: "Flutter", color: "border-blue-400" },
             { name: "Firebase", color: "border-red-700" },
+            { name: "Functions", color: "border-yellow-500" },
+        ],
+        link: "https://github.com/navalnorth/terpiyaCenter_flutter",
+        grandTitle: "Appli Flutter Bien-Etre et Thérapies"
+    },
+    {
+        image: pauline,
+        title: "Pauline Bourdarias | Formations & Bilan de Compétences",
+        tags: [
+            { name: "Vue.js", color: "border-green-500" },
+            { name: "Node.js", color: "border-red-700" },
+            { name: "MySQL", color: "border-yellow-500" },
+            { name: "Railway", color: "border-white" },
+            { name: "Netlify", color: "border-blue-300" },
+        ],
+        link: "https://pauline-bourdarias.netlify.app/",
+        grandTitle: "Plateforme Vue.js professionnelle CRUD"
+    },
+    {
+        image: ecomFlutter,
+        title: "E-com | l'ecommerce des vêtements",
+        tags: [
+            { name: "Flutter", color: "border-blue-400" },
+            { name: "Firebase", color: "border-red-700" },
+            { name: "Firestore", color: "border-red-300" },
         ],
         link: "https://github.com/navalnorth/ecomApp_flutter",
-        grandTitle: "Appication Flutter E-commerce"
+        grandTitle: "Appli Flutter E-commerce Vetêments"
     },
     {
         image: nahlaImage,
@@ -102,21 +129,18 @@ const projects = ref([
             { name: "SEO & SEA", color: "border-blue-600" },
         ],
         link: "https://nahladelices.com/",
-        grandTitle: "CMS e-commerce"
+        grandTitle: "CMS WP e-commerce Produits Naturels"
     },
     {
-        image: pauline,
-        title: "Pauline Bourdarias | Formations & Bilan de Compétences",
+        image: cafe,
+        title: "Commande ton cafe avec les sucres qu'il faut !",
         tags: [
-            { name: "Vue.s", color: "border-green-500" },
-            { name: "Node.js", color: "border-red-700" },
-            { name: "MySQL", color: "border-yellow-500" },
-            { name: "Railway", color: "border-white" },
-            { name: "Netlify", color: "border-blue-300" },
+            { name: "Flutter", color: "border-blue-400" },
+            { name: "Firebase", color: "border-red-700" },
+            { name: "Firestore", color: "border-red-300" },
         ],
-        link: "https://pauline-bourdarias.netlify.app/",
-        grandTitle: "Plateforme professionnelle CRUD"
-
+        link: "https://github.com/navalnorth/CommandeCafe_flutter",
+        grandTitle: "Appli Flutter pour ton café"
     },
     {
         image: morpion,
@@ -125,7 +149,7 @@ const projects = ref([
             { name: "Flutter", color: "border-blue-400" },
         ],
         link: "https://apkpure.com/p/com.navalnorth.morpion",
-        grandTitle: "Le jeu du morpion"
+        grandTitle: "Le jeu du morpion en Flutter"
     },
     {
         image: quiz,
@@ -137,7 +161,7 @@ const projects = ref([
             { name: "Hostinger", color: "border-purple-500" },
         ],
         link: "https://navalnorth.com/quiz/",
-        grandTitle: "Appication Quiz CRUD"
+        grandTitle: "Appication Vue.js Quiz CRUD"
     },
     {
         image: pexingbar,
@@ -147,8 +171,7 @@ const projects = ref([
             { name: "node.js", color: "border-red-400" },
         ],
         link: "https://pexingbar.netlify.app/",
-        grandTitle: "Site vitrine & Mobile only"
-
+        grandTitle: "Site vitrine & Mobile only Vue.js"
     },
     {
         image: i18n,
@@ -159,7 +182,7 @@ const projects = ref([
             { name: "I18n", color: "border-blue-300" },
         ],
         link: "https://recettesi18n.netlify.app/",
-        grandTitle: "Site vitrine & traduction I18n"
+        grandTitle: "Site vitrine & traduction I18n & Vue.js"
 
     },
     {
@@ -171,19 +194,7 @@ const projects = ref([
             { name: "MySQL", color: "border-yellow-500" },
         ],
         link: "https://navalnorth.com/planify/",
-        grandTitle: "Site web desktop-first pour planifier tes voyages"
-
-    },
-    {
-        image: amorre,
-        title: "Restaurant de Luxe",
-        tags: [
-            { name: "HTML", color: "border-green-500" },
-            { name: "CSS", color: "border-purple-400" },
-            { name: "JavaScript", color: "border-orange-300" },
-        ],
-        link: "https://amorreditalia.netlify.app/",
-        grandTitle: "Site vitrine restaurant"
+        grandTitle: "Site web Vue.js desktop-first pour planifier tes voyages"
 
     },
 ]);
